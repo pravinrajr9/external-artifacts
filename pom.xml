@@ -9,12 +9,13 @@
     <name>Mt Wilson External Maven Artifacts</name>
     
     <modules>
-        <module>vijava</module>
-        <module>glassfish</module>
         <module>apache-tomcat</module>
         <module>citrix-sdk</module>
-        <module>monit</module>
+        <module>glassfish</module>
         <module>jdk</module>
+        <module>monit</module>
+        <module>tpm-tools</module>
+        <module>vijava</module>
     </modules>
 
 </project>
