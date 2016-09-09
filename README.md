@@ -13,10 +13,12 @@ After you clone the project, cd to the root directory of external artifacts
 
 Now download each artifact and prepare them to build the opencit-external-artifacts project.
 
-### Monit ###
 
-    wget https://mmonit.com/monit/dist/monit-5.5.tar.gz
-    mv monit-5.5.tar.gz monit/monit-5.5-linux-src.tgz
+### Apache Tomcat ###
+
+    wget https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.34/bin/apache-tomcat-7.0.34.tar.gz
+    mv apache-tomcat-7.0.34.tar.gz apache-tomcat/apache-tomcat-7.0.34.tar.gz
+
 
 ### Citrix SDK ###
 
@@ -34,20 +36,9 @@ You will get the following zip file *'XenServer-6.1-SDK.zip'*, Unzip it and copy
     mv XenServer-SDK/XenServerJava/bin/xenserver-6.1.0-1.jar citrix-sdk/citrix-sdk-6.1.jar
 
 
-### Tomcat ###
-
-    wget https://archive.apache.org/dist/tomcat/tomcat-7/v7.0.34/bin/apache-tomcat-7.0.34.tar.gz
-    mv apache-tomcat-7.0.34.tar.gz apache-tomcat/apache-tomcat-7.0.34.tar.gz
-
-
 ### Glassfish ###
     wget http://download.java.net/glassfish/4.0/release/glassfish-4.0.zip
     mv glassfish-4.0.zip glassfish/glassfish-4.0.zip
-    
-### vijava ###
-    wget https://sourceforge.net/projects/vijava/files/vijava/VI%20Java%20API%205.5%20Beta/vijava55b20130927.zip
-    unzip vijava55b20130927.zip
-    mv vijava55b20130927.jar vijava/vijava-5.5.jar
 
 
 ### JDK ###
@@ -61,6 +52,24 @@ Download the following file: *jdk-7u51-linux-x64.tar.gz*
 Once you downloaded the file, place it in the jdk directory
 
     mv jdk-7u51-linux-x64.tar.gz jdk/jdk-1.7.0_51-linux-x64.tar.gz
+
+
+### Monit ###
+
+    wget https://mmonit.com/monit/dist/monit-5.5.tar.gz
+    mv monit-5.5.tar.gz monit/monit-5.5-linux-src.tgz
+
+
+### TPM Tools ###
+    wget https://sourceforge.net/projects/trousers/files/tpm-tools/1.3.8/tpm-tools-1.3.8.tar.gz/download
+    mv tpm-tools-1.3.8.tar.gz tpm-tools/tpm-tools-1.3.8.tar.gz
+
+
+### vijava ###
+    wget https://sourceforge.net/projects/vijava/files/vijava/VI%20Java%20API%205.5%20Beta/vijava55b20130927.zip
+    unzip vijava55b20130927.zip
+    mv vijava55b20130927.jar vijava/vijava-5.5.jar
+
 
 Now cleanup
 
