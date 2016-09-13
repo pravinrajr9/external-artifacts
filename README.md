@@ -20,22 +20,6 @@ Now download each artifact and prepare them to build the opencit-external-artifa
     mv apache-tomcat-7.0.34.tar.gz apache-tomcat/apache-tomcat-7.0.34.tar.gz
 
 
-### Citrix SDK ###
-
-Download the SDK zip file from:
-
-*https://www.citrix.com/downloads/xenserver/product-software/xenserver-6-1.html#ctx-dl-eula*
-
-The zip file is located under 'Development Components>SDK (Software Development Kit)>Download'
-
-**Note:** You need to create an account to download from this site.
-
-You will get the following zip file *'XenServer-6.1-SDK.zip'*, Unzip it and copy the jar file:
-
-    unzip XenServer-6.1-SDK.zip
-    mv XenServer-SDK/XenServerJava/bin/xenserver-6.1.0-1.jar citrix-sdk/citrix-sdk-6.1.jar
-
-
 ### Glassfish ###
     wget http://download.java.net/glassfish/4.0/release/glassfish-4.0.zip
     mv glassfish-4.0.zip glassfish/glassfish-4.0.zip
