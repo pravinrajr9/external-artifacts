@@ -10,7 +10,7 @@ To build this project, you will need to download a couple of artifacts and place
 After you clone the project, cd to the root directory of external artifacts
 
     cd opencit-external-artifacts
-	git checkout release-cit-2.2-beta
+	git checkout release-cit-2.2
 
 Now download each artifact and prepare them to build the opencit-external-artifacts project.
 
@@ -70,4 +70,4 @@ You are now ready to build, run
     ant
 
 
-Please see the [Product Guide](https://github.com/opencit/opencit/blob/release-cit-2.2-beta/OpenCIT_2.2_Beta_ProductGuide.pdf) for further details on how this project is used.
+Please see the [Product Guide](https://github.com/opencit/opencit/wiki/Open-CIT-2.2-Product-Guide) for further details on how this project is used.
