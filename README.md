@@ -45,6 +45,11 @@ Once you downloaded the file, place it in the jdk directory
     mv monit-5.5.tar.gz monit/monit-5.5-linux-src.tgz
 
 
+### Tboot ###
+    wget https://sourceforge.net/projects/tboot/files/tboot/tboot-1.9.4.tar.gz/download
+    mv tboot-1.9.4.tar.gz tboot/tboot-1.9.4.tar.gz
+
+
 ### TPM Tools ###
     wget https://sourceforge.net/projects/trousers/files/tpm-tools/1.3.8/tpm-tools-1.3.8.tar.gz/download
     mv tpm-tools-1.3.8.tar.gz tpm-tools/tpm-tools-1.3.8.tar.gz
