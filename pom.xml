@@ -13,7 +13,6 @@
         <module>glassfish</module>
         <module>jdk</module>
         <module>monit</module>
-        <module>tboot</module>
         <module>tpm-tools</module>
         <module>vijava</module>
     </modules>
