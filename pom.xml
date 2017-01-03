@@ -10,7 +10,6 @@
     
     <modules>
         <module>apache-tomcat</module>
-        <module>glassfish</module>
         <module>jdk</module>
         <module>monit</module>
         <module>tpm-tools</module>

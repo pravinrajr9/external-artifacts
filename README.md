@@ -21,9 +21,6 @@ Now download each artifact and prepare them to build the opencit-external-artifa
     mv apache-tomcat-7.0.34.tar.gz apache-tomcat/apache-tomcat-7.0.34.tar.gz
 
 
-### Glassfish ###
-    wget http://download.java.net/glassfish/4.0/release/glassfish-4.0.zip
-    mv glassfish-4.0.zip glassfish/glassfish-4.0.zip
 
 
 ### JDK ###
