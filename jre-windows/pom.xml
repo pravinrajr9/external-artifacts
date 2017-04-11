@@ -3,7 +3,7 @@
     
     <groupId>com.oracle</groupId>
     <artifactId>jre</artifactId>
-    <version>1.8.0_121</version>
+    <version>1.8</version>
     
     <packaging>pom</packaging>
 
@@ -15,24 +15,33 @@
         <version>${project.version}</version>
         <classifier>windows-x64</classifier>
         <packaging>tar.gz</packaging>
-        <file>jre-1.8.0_121-windows-x64.tar.gz</file>
+        <file>jre-1.8-windows-x64.tar.gz</file>
     </properties>
     
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-install-plugin</artifactId>
-                <version>2.4</version>
-                <executions>
-                    <execution>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>install-file</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+    <profiles>
+        <profile>
+            <activation>              
+                <os>
+                  <family>windows</family>
+                </os>         
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-install-plugin</artifactId>
+                        <version>2.4</version>
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>install-file</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>

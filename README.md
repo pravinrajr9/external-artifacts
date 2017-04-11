@@ -44,7 +44,7 @@ Download the following file: *jre-8u121-windows-x64.tar.gz*
 
 Once you download the file, place it in the jre-windows directory
 
-    mv jre-8u121-windows-x64.tar.gz jre-windows/jre-1.8.0_121-windows-x64.tar.gz
+    mv jre-8u121-windows-x64.tar.gz jre-windows/jre-1.8-windows-x64.tar.gz
 
 
 ### Monit ###
