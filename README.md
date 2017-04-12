@@ -21,8 +21,6 @@ Now download each artifact and prepare them to build the opencit-external-artifa
     mv apache-tomcat-7.0.34.tar.gz apache-tomcat/apache-tomcat-7.0.34.tar.gz
 
 
-
-
 ### JDK ###
 
 Download the JDK from:
@@ -34,6 +32,19 @@ Download the following file: *jdk-7u51-linux-x64.tar.gz*
 Once you downloaded the file, place it in the jdk directory
 
     mv jdk-7u51-linux-x64.tar.gz jdk/jdk-1.7.0_51-linux-x64.tar.gz
+
+
+## JRE Windows ###
+
+Download the JRE Windows from:
+
+*http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html*
+
+Download the following file: *jre-8u121-windows-x64.tar.gz*
+
+Once you download the file, place it in the jre-windows directory
+
+    mv jre-8u121-windows-x64.tar.gz jre-windows/jre-1.8-windows-x64.tar.gz
 
 
 ### Monit ###

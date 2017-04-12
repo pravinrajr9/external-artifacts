@@ -15,6 +15,7 @@
         <module>monit</module>
         <module>tpm-tools</module>
         <module>vijava</module>
+        <module>jre-windows</module>
     </modules>
 
 </project>
