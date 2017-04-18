@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.oracle</groupId>
+    <artifactId>jre</artifactId>
+    <version>1.8</version>
+    
+    <packaging>pom</packaging>
+
+    <url>http://www.oracle.com/technetwork/java/javase/overview/index.html</url>
+  
+    <properties>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>${project.artifactId}</artifactId>
+        <version>${project.version}</version>
+        <classifier>windows-x64</classifier>
+        <packaging>tar.gz</packaging>
+        <file>jre-1.8-windows-x64.tar.gz</file>
+    </properties>
+    
+    <profiles>
+        <profile>
+            <activation>              
+                <os>
+                  <family>windows</family>
+                </os>         
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-install-plugin</artifactId>
+                        <version>2.4</version>
+                        <executions>
+                            <execution>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>install-file</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
