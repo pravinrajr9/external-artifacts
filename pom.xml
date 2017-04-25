@@ -16,6 +16,7 @@
         <module>tpm-tools</module>
         <module>vijava</module>
         <module>jre-windows</module>
+		<module>ext2fsd</module>
     </modules>
 
 </project>
