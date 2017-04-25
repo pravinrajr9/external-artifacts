@@ -68,11 +68,16 @@ Once you download the file, place it in the jre-windows directory
     unzip vijava55b20130927.zip
     mv vijava55b20130927.jar vijava/vijava-5.5.jar
 
+### ext2fsd ###
+    wget --no-check-certificate  https://sourceforge.net/projects/ext2fsd/files/Ext2fsd/0.62/Ext2Fsd-0.62.exe
+    mv Ext2Fsd-0.62.exe ext2fsd/Ext2Fsd-0.62.exe
+
 
 Now cleanup
 
     rm -rf *.zip
     rm -rf *.jar
+    rm -rf *.exe
     rm -rf XenServer-SDK
 
 
