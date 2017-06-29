@@ -10,7 +10,6 @@
     
     <modules>
         <module>apache-tomcat</module>
-        <module>jdk</module>
         <module>kmip4j</module>
         <module>monit</module>
         <module>tpm-tools</module>
