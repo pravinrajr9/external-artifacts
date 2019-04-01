@@ -21,11 +21,11 @@ Download the JRE Windows from:
 
 *http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html*
 
-Download the following file: *jre-8u121-windows-x64.tar.gz*
+Download the following file: *jre-8u191-windows-x64.tar.gz*
 
 Once you download the file, place it in the jre-windows directory
 
-    mv jre-8u121-windows-x64.tar.gz jre-windows/jre-1.8-windows-x64.tar.gz
+    mv jre-8u191-windows-x64.tar.gz jre-windows/jre-1.8-windows-x64.tar.gz
 
 
 ### Monit ###
